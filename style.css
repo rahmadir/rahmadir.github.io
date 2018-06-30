@@ -1,0 +1,90 @@
+*{
+	margin: 0px auto;
+}
+body{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+
+}
+header{
+	height: 100px;
+	background-color: royalblue;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+	opacity: 0.9;
+}
+#banner{
+	width: 100%;
+	height: 500px;
+	top: 100px;
+	background-image: url(https://img.etsystatic.com/il/8b1674/1195731693/il_fullxfull.1195731693_9gud.jpg?version=0);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	position: fixed;
+
+}
+#content{
+	width: 100%;
+	position: relative;
+	background-color:royalblue;
+	top: 400px;
+	height: 200px;
+	padding: 40px;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+}
+#content1{
+	width: 100%;
+	position: relative;
+	background-color:white;
+	top: 400px;
+	height: 200px;
+	padding: 40px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+}
+
+h1{
+	float: left;
+	padding: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	color:white;
+}
+#list{
+	margin: 15px;
+	padding: 0;
+
+}
+#list li{
+	float: right;
+	list-style: none;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 20px;
+	color: white;
+	font-variant: small-caps;
+}
+#banner h2{
+	text-align: center;
+	padding: 100px;
+	color: white;
+	font-style: italic;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 50px;
+}
+
+#footer h5{
+	height: 15px;
+	background-color: royalblue;
+	width: 100%;
+	color: white;
+	opacity: 0.9;	
+	padding: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 15px;
+	position: fixed;
+}
