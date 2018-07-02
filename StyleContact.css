@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:royalblue;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.contact-title{
+    margin-top: 100px;
+    color:white;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: white;
+    margin-bottom: 16px;
+    
+}
+input{
+    height: 45px;
+}
+
+form .submit{
+    background-color: orangered;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
