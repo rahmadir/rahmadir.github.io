@@ -1,44 +1,103 @@
+*{
+    margin: 0px auto;
+}
 body{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color:royalblue;
-    background-size: cover;
-    background-position: center;
-    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: royalblue;
+    opacity: 0.9;
+    padding: 10px;
+}
+h1{
+	float: left;
+	padding: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	color:white;
+}
+#list{
+	padding: 20px;
+	margin: 30px;
 
 }
-.contact-title{
-    margin-top: 100px;
-    color:white;
-    text-transform: uppercase;
-    transition: all 4s ease-in-out;
+#list li{
+	float: right;
+	list-style: none;
+	color: white;
+	font-variant: small-caps;
+	margin-right: 60px;
+	margin-bottom: 30px;
+
+}
+section{
+    clear: both;
+}
+#banner{
+	height: 300px;
+	background-image: url(https://img.etsystatic.com/il/8b1674/1195731693/il_fullxfull.1195731693_9gud.jpg?version=0);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
+#banner h2{
+	text-align: center;
+	padding: 100px;
+	color: white;
+	font-style: italic;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 50px;
+	margin-left: 50px;
 }
 .contact-title h1{
-    font-size: 32px;
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+    font-size: 30px;
     line-height: 10px;
-
+}
+form{
+    height: 300px;
+    margin-top: 20px;
+    transition: all 4s ease-in-out;
+    clear: both;
+    padding: 50px;
 }
 .form-control{
-    width: 600px;
-    background: transparent;
+    width: 200px;
     border: none;
     outline: none;
-    border-bottom: 1px solid gray;
-    color: white;
-    margin-bottom: 16px;
-    
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 input{
-    height: 45px;
+    height:20px;
 }
-
 form .submit{
-    background-color: orangered;
+    background-color: royalblue;
     border-color: transparent;
     color: white;
     font-size: 20px;
-    letter-spacing: 2px;
-    height: 50px;
-    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 6px;
+    height: 35px;
+    margin-top: 25px;
+    
+}
+
+
+#footer h5{
+
+	background-color:black;
+	width: 100%;
+	color:white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 15px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+
 }

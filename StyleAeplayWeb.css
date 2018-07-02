@@ -52,12 +52,12 @@ h1{
 }
 #content{
 	background-color:royalblue;
-	height: 300px;
-	padding: 40px;
+	height: 250px;
+	padding: 50px;
 	color: white;
 	font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
-    line-height: 2;
+	line-height: 2;
 }
 #footer{
 	background-color:whitesmoke;
